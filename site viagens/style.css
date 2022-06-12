@@ -1,0 +1,124 @@
+* {
+    font-family: Oswald Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+/* Cabeçalho */
+header{
+    font-size: 50px;;
+    background-color: rgb(40, 40, 112);
+    text-align: center;
+    border-bottom: 3px solid rgb(198, 198, 216)l;
+    color: rgba(245, 245, 245, 0.945);
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+/* Grid de viagens*/
+
+.container {
+    min-height: 75vh;
+    background-color: rgb(240, 240, 240);
+    padding: 50px;
+}
+
+.trips-container {
+min-width: 1200px;
+margin: 0 auto;
+text-align:justify ;
+}
+
+.cards {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.trip-card {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url(../imgs/bahiaindez.jpg);
+}
+
+
+#img-2 {
+    background-image: url(../imgs/pantanalindex.jpg);
+}
+
+#img-3 {
+    background-image: url(../imgs/cabofrioindex.jpg);
+}
+
+#img-4 {
+    background-image: url(../imgs/ushuaiaindex.jpg);
+}
+
+
+#img-5 {
+    background-image: url(../imgs/chileindex.jpg);
+}
+
+#img-6 {
+    background-image: url(../imgs/boliviaindex.png);
+}
+
+h3 { 
+    color: rgb(38, 38, 153);
+    text-align: calc(1px);
+
+    margin-bottom: 10px;
+    padding-left: 7px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    display: block;
+    width: 100%;
+    background-color: rgb(38, 38, 153) ;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(22, 22, 88) ;
+    color: #FFF;
+
+}
+
+
+/* RODAPÉ */
+
+footer {
+    text-align: center;
+    color: rgb(236, 238, 238);
+    background-color: rgb(40, 40, 112);
+    border-top: 3px solid rgb(59, 59, 161);
+    padding: 40px;
+}
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+</style>
